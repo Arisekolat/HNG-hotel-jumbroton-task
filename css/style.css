@@ -1,0 +1,115 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+    font-family: play;
+}
+
+.navbar {
+  box-shadow: none !important;
+}
+.navbar-brand {
+  font-size: 30px;
+}
+.nav-pad {
+  padding-right: 30px;
+}
+#active {
+  color: #db8837;
+}
+.nav-link:hover,
+.nav-link:focus {
+  border: none; 
+}
+
+#intro {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/2.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.my-hr {
+  display: inline-block;
+}
+.star {
+  color: white;
+  margin-bottom: 50px;
+}
+.star i {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+hr {
+	width: 100px;
+  color: white;
+}
+
+
+.text-font-style {
+  font-size: 38px;
+  font-weight: bold;
+}
+.welcome-text {
+  margin: 0 25%;
+}
+
+.bottom-section {
+  position: absolute;
+  top: 86%;
+  background-color: white;
+  width: 70%;
+  height: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+.bottom-element {
+  display: inline-block;
+  padding: 20px 15px;
+  margin: 0 10px;
+}
+.bottom-element p {
+  font-weight: bold;
+}
+#span {
+  border: 1px solid black;
+  padding: 12px;
+}
+.search-btn {
+  background-color: #db8837;
+  border: none;
+  color: white;
+  padding: 12px 35px;
+  font-weight: bold;
+  transition: .25s ease-in-out all;
+}
+.search-btn:hover,
+.search-btn:active {
+  background-color: white;
+  border: 1px solid #db8837;
+  transition: .25s ease-in-out all;
+  color: #db8837;
+}
+
+.top-nav-collapse {
+    background-color: #24355C;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 300px) and (max-width: 500px) {
+    .star i {
+      display: none;
+    }
+  }
+  
